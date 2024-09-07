@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos - Servicios Técnicos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="technicians.html">Técnicos</a></li>
+          <li><a href="video-call.html">Videollamada</a></li>
+          <li><a href="contact.html">Contáctanos</a></li>
+          <li><a href="user-profile.html">Mi Perfil</a></li>
+        </ul>
+      </nav>
+      <div class="login">
+        <a href="#" class="btn">Iniciar Sesión</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-us">
+      <h1>Contáctanos</h1>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="contact-name">Nombre Completo:</label>
+          <input type="text" id="contact-name" name="contact-name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-email">Correo Electrónico:</label>
+          <input type="email" id="contact-email" name="contact-email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-phone">Número de Teléfono:</label>
+          <input type="tel" id="contact-phone" name="contact-phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-subject">Asunto:</label>
+          <select id="contact-subject" name="contact-subject" required>
+            <option value="">Seleccionar...</option>
+            <option value="general-inquiry">Consulta General</option>
+            <option value="technical-support">Soporte Técnico</option>
+            <option value="feedback">Sugerencia</option>
+            <option value="complaint">Reclamación</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-message">Mensaje:</label>
+          <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Enviar Mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+    <p>© 2024 Servicios Técnicos. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
+
